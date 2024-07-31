@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">tic tac toe</h1><!-- Title of the HTML document -->
+      <div class="game"><!-- Container for the tic tac toe game -->
+        <div class="cells"> <!-- Container for the game cells -->
+          <div class="cell one"></div> <!-- 1st cell in the tic tac toe grid -->
+          <div class="cell two"></div><!-- 2nd cell  -->
+          <div class="cell three"></div><!-- 3rd cell  -->
+        </div>
+        <div class="cells">
+          <div class="cell four"></div><!-- 4th cell  -->
+          <div class="cell five"></div><!-- 5th cell  -->
+          <div class="cell six"></div><!-- 6th cell  -->
+        </div>
+        <div class="cells">
+          <div class="cell seven"></div><!-- 7th cell  -->
+          <div class="cell eight"></div><!-- 8th cell  -->
+          <div class="cell nine"></div><!-- 9th cell  -->
+        </div>
+        <div class="score">
+          <h1>Score</h1>
+          <div class="score-inner">
+            <h2>X : <span id="playerXScore">0</span></h2><!-- Display for player X's score -->
+            <h2>O : <span id="playerOScore">0</span></h2><!-- Display for player 0's score -->
+          </div>
+          <div class="score-inner">
+            <h2>Draws</h2>
+            <h2 id="draws">0</h2><!-- Display for number of draws -->
+          </div>
+        </div>
+        <button class="resetBtn">reset</button><!-- Reset button for the game -->
+        <div class="toast">text</div><!-- Container for toast notifications (placeholder text) -->
+      </div>
+    </div>
+
+    <script src="script.js"></script><!-- Link to an JavaScript file -->
+  </body>
+</html>
